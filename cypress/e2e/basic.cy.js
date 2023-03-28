@@ -4,6 +4,6 @@ describe('sample render test', () => {
   });
 
   it('displays the title text', () => {
-    cy.get('h1').contains('Wallium Tweaks and Tips');
+    cy.get('h1').contains('anyTweak');
   });
 });
